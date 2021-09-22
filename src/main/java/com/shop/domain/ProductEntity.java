@@ -21,6 +21,8 @@ public class ProductEntity {
     @Column
     private String name;
     @Column
+    private String code;
+    @Column
     private Double price;
     @Column
     private String description;

@@ -12,10 +12,11 @@ import java.util.List;
 @Builder
 public class ProductDto {
     private String name;
+    private String code;
     private Double price;
     private String description;
     private List<String> images;
     private Integer amount;
-    private ProductStatus status;
-    private CategoryDto categoryEntity;
+    private String status;
+    private String category;
 }
