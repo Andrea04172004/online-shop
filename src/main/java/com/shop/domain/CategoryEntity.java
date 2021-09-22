@@ -29,9 +29,4 @@ public class CategoryEntity {
     @EqualsAndHashCode.Exclude
     @OneToMany (fetch = FetchType.LAZY)
     private Set<ProductEntity> productEntities = new HashSet<>();
-    @ToString.Exclude
-    @EqualsAndHashCode.Exclude
-    @OneToMany
-    private Set<CategoryEntity> subCategories = new HashSet<>();
-
 }
