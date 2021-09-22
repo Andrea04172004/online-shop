@@ -21,5 +21,4 @@ public class CategoryDto {
     private String name;
     private LocalDateTime created;
     private Set<ProductDto> productEntities = new HashSet<>();
-    private Set<CategoryDto> subCategories = new HashSet<>();
 }
